@@ -1,0 +1,116 @@
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lobster&family=Rubik:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --main-color: rgb(0, 0, 0);
+}
+
+html {
+  font-family: "Poppins", sans-serif !important;
+}
+//Header
+#Hello {
+  height: auto;
+}
+#Hello span {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 99vh !important;
+}
+.logo-container {
+}
+
+.logo-image {
+  width: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+}
+#gif {
+  padding-left: 25px;
+}
+.menuItem {
+  height: auto !important;
+  width: auto !important;
+  gap: 30px;
+  // border: 1px solid white;
+  margin-bottom: 30px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  font-size: 1rem !important;
+}
+
+.menuItem .content {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 10px;
+
+  padding-left: 14px;
+}
+
+.icon {
+  font-size: 25px !important;
+}
+
+// .menuItem:where(.css-dev-only-do-not-override-12jzuas).ant-menu-light
+//   .ant-menu-item-selected,
+// :where(.css-dev-only-do-not-override-12jzuas).ant-menu-light
+//   > .ant-menu
+.ant-menu-item-selected {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(220, 200, 200, 0.9) !important;
+  // color: white;
+  box-shadow: 0px 0px 5px 2px rgb(255, 255, 255);
+}
+
+.ant-menu .ant-menu-item-selected {
+  // font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: rgb(63, 59, 56) !important;
+  font-weight: 800;
+}
+
+//navbar
+.ant-menu {
+  border-right: 0px !important;
+  font-size: small !important;
+}
+.ant-menu {
+  margin-bottom: 0px !important;
+  height: 58vh !important;
+  .ant-menu-item {
+    font-size: 0.85rem;
+  }
+}
+
+// Dashboard
+.columnDashboard {
+  &:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+h3 {
+  margin: 0;
+}
+
+.ant-card-body {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.rowDashboard:first-child {
+  margin-bottom: 10px;
+}
+
+.ant-card-head {
+  padding: 10px !important;
+  text-align: center;
+}
+.columnDashboard:first-child .ant-card-body {
+  padding: 10px;
+}

@@ -1,0 +1,16 @@
+{
+  "slides": [
+    {
+      "src": "https://vitaminbase.eu/wp-content/uploads/2020/12/cashew-01.gif",
+      "alt": "Image 1 for carousel"
+    },
+    {
+      "src": "https://vitaminbase.eu/wp-content/uploads/2020/12/cashew-no-intro-02.gif",
+      "alt": "Image 2 for carousel"
+    },
+    {
+      "src": "https://vitaminbase.eu/wp-content/uploads/2020/12/cashew-no-intro-03.gif",
+      "alt": "Image 3 for carousel"
+    }
+  ]
+}
